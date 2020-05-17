@@ -1,0 +1,10 @@
+img{
+  width: 50vw;
+  /* height: 300px; */
+}
+#main{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 50px;
+}
