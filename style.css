@@ -3,8 +3,10 @@ img{
   /* height: 300px; */
 }
 #main{
-  position: absolute;
+  position: fixed;
+  height: calc(100vh - 30px);
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 50px;
+  /* margin-bottom: 500px; */
+  overflow-y: scroll;
 }
